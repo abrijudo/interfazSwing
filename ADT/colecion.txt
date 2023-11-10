@@ -1,0 +1,8 @@
+Pregunta: ¿Que significa SQL?
+Respuesta: No significa nada
+Respuesta: Lenguaje de Consultas Estructurado
+Respuesta: La segunda parte de una obra de ficcion
+Pregunta: ¿Que base de datos conoces?
+Respuesta: Ninguna
+Respuesta: Ninguna por segunda vez
+Respuesta: Ni idea de lo que me dices

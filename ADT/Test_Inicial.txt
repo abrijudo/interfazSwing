@@ -1,0 +1,36 @@
+1. ¿Relacion con asignaturas?
+
+	1º Base de datos
+	2º Lenguaje de Marcas
+	3º Programación
+-
+2. ¿Tipos de BBDD?
+
+	1º Relacionales
+	2º No relacionales
+	3º Orientada a objetos
+	4º Centralizado o distribuido
+	5º Grafo (NoSQL)
+	6º Clave/Valor (NoSQL)
+	7º Documentales (NoSQL)
+-
+3. ¿Persistencia?
+
+	Almacenar datos para que queden permanentes
+	Tipos: Ficheros/Base de datos/XML/Web Scrapping
+-	
+4. ¿Arquitecturas / Tecnologías a base de datos?
+
+	1º MySQL
+	2º MariaDB
+	3º Oracle
+	4º MongoDB
+	5º SQL
+-
+5. ¿Iteradores?
+	For/While
+-
+6. Tipos de almacenamiento
+	Volatil  RAM
+	Permanente  USB /BBDD
+-

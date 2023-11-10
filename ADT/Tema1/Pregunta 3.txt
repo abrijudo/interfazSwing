@@ -1,0 +1,6 @@
+
+3. ¿Persistencia?
+
+	Almacenar datos para que queden permanentes
+	Tipos: Ficheros/Base de datos/XML/Web Scrapping
+-

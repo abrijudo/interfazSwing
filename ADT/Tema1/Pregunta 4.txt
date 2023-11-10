@@ -1,0 +1,9 @@
+	
+4. ¿Arquitecturas / Tecnologías a base de datos?
+
+	1º MySQL
+	2º MariaDB
+	3º Oracle
+	4º MongoDB
+	5º SQL
+-
