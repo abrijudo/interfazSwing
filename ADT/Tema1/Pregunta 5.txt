@@ -1,4 +1,0 @@
-
-5. ¿Iteradores?
-	For/While
--

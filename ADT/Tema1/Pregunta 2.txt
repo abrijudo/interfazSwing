@@ -1,9 +1,0 @@
-
-2. ¿Tipos de BBDD?
-
-	1º Relacionales
-	2º Grafo (NoSQL)
-	3º No relacionales
-	4º Orientada a objetos
-	5º Centralizado o distribuido
--

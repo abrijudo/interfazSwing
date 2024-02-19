@@ -1,9 +1,0 @@
-
-7. Estructura ejercicio entregar clase
-	1Descripcion problema elegido
-	2Pasos
-		Creacion fichero
-	3Evidencias
-		Entrada
-		Salida	
--
