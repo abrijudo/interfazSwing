@@ -1,0 +1,52 @@
+﻿<Window x:Class="tuniversCinema.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tuniversCinema"
+        mc:Ignorable="d"
+        Title="Cinema" Height="450" Width="800">
+    <Grid>
+        <StackPanel x:Name="peliculaStackPanel" Margin="102,97,539,232">
+            <RadioButton Name="traducirVengadores" Content="Los Vengadores" Checked="RadioButton_Checked"/>
+            <RadioButton Name="traducirAnillos" Content="El señor de los anillos" Checked="RadioButton_Checked" />
+            <RadioButton Content="Forest Gump" Checked="RadioButton_Checked" />
+            <RadioButton Content="Titanic" Checked="RadioButton_Checked"/>
+        </StackPanel>
+        <StackPanel x:Name="aperitivosStackPanel" Margin="102,253,508,71">
+            <CheckBox Name="checkboxPalomitasPequeñas" Content="Palomitas Pequeñas" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked"/>
+            <CheckBox Name="checkboxPalomitasGrandes" Content="Palomitas Grandes" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked"/>
+            <CheckBox Name="checkboxRefresco" Content="Refresco" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked"/>
+            <CheckBox Name="checkboxBotellaAgua" Content="Botella de Agua" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked"/>
+        </StackPanel>
+        <ComboBox x:Name="comboBoxEntradas" HorizontalAlignment="Left" Margin="424,97,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_NumeroEntradas_SelectionChanged">
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="comboBoxIdioma" HorizontalAlignment="Left" Margin="653,97,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem>Español</ComboBoxItem>
+            <ComboBoxItem>Ingles</ComboBoxItem>
+        </ComboBox>
+
+        <TextBlock HorizontalAlignment="Left" Margin="102,68,0,0" TextWrapping="Wrap" Text="Tunivers Cinema" VerticalAlignment="Top" Width="144"  Background="Black" Foreground="White" FontFamily="Bahnschrift SemiLight" FontSize="18"/>
+        <TextBox Name="traducirAperitivos" HorizontalAlignment="Left" Margin="102,217,0,0" TextWrapping="Wrap" Text="Aperitivos" VerticalAlignment="Top" Width="120" Height="31" BorderBrush="{x:Null}" />
+        <TextBox Name="traducirNumeroEntradas" HorizontalAlignment="Left" Margin="424,61,0,0" TextWrapping="Wrap" Text="Numero Entradas" VerticalAlignment="Top" Width="120" Height="31" BorderBrush="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Margin="653,61,0,0" TextWrapping="Wrap" Text="Idioma" VerticalAlignment="Top" Width="120" Height="31" BorderBrush="{x:Null}"/>
+        <TextBox Name="traducirHora" HorizontalAlignment="Left" Margin="299,61,0,0" TextWrapping="Wrap" Text="Hora:" VerticalAlignment="Top" Width="120" Height="31" BorderBrush="{x:Null}"/>
+
+
+        <Button Name="botonFinalizarCompra" Content="Finalizar Compra" HorizontalAlignment="Left" Margin="384,289,0,0" VerticalAlignment="Top" Height="38" Width="126" Click="Button_Click"/>
+
+        <TextBox Name="salidaTextoPelicula" HorizontalAlignment="Left" Margin="364,163,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Height="22" BorderBrush="{x:Null}" />
+        <TextBox Name="salidaTextoAperitivos" HorizontalAlignment="Left" Margin="570,163,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Height="129" BorderBrush="{x:Null}" />
+        <TextBox Name="salidaTextoHora" HorizontalAlignment="Left" Margin="364,195,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Height="22" BorderBrush="{x:Null}" />
+        <TextBox Name="salidaTextoNumeroEntradas" HorizontalAlignment="Left" Margin="364,232,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Height="22" BorderBrush="{x:Null}" />
+        <StackPanel x:Name="horaStackPanel" Margin="293,91,434,284" >
+            <RadioButton Content="18:00" Checked="RadioButton_Hora_Checked"/>
+            <RadioButton Content="20:00" Checked="RadioButton_Hora_Checked"/>
+        </StackPanel>
+
+
+    </Grid>
+</Window>
